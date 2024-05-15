@@ -67,7 +67,7 @@ console.log('Order prices - ', totalOrderPrice);
  *   - return the first element found
  *   - searching with condition
  */
-let idToFind = 1;
+let idToFind = 2;
 const employees = [
     {'id': 1, 'name': 'Alex', 'email': 'alex@gmail.com'},
     {'id': 3, 'name': 'Juan', 'email': 'juan@gmail.com'},

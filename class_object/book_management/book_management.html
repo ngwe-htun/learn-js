@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management system</title>
+</head>
+<body>
+    
+    <h2>Book Management System</h2>
+
+    <!-- Add book -->
+    <!-- Book name -->
+    <label for="bookName">Book Name:</label><br>
+    <input type="text" id="bookName"><br><br>
+    <!-- Author name -->
+    <label for="authorName">Author Name:</label><br>
+    <textarea id="authorName" rows="4"></textarea><br><br>
+    <!-- Book  description -->
+    <label for="bookDescription">Book Description</label><br>
+    <textarea id="bookDescription" rows="4"></textarea><br><br>
+    <!-- Number of pages -->
+    <label for="pagesNumber">No. of Pages Time</label><br>
+    <input type="number" id="pagesNumber"><br><br>
+    <!-- Action -->
+    <button onclick="addBook()">Add Book</button>
+
+
+    <!-- Display book here -->
+    <h2>Books</h2>
+    <div id="display-book">
+        <!-- Book will appear here -->
+    </div>
+
+    <script src="book_management.js"></script>
+</body>
+</html>
